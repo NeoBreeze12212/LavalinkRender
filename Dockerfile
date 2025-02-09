@@ -1,4 +1,2 @@
-FROM eclipse-temurin:17-jdk
-WORKDIR /app
-COPY Lavalink.jar .
+FROM ghcr.io/freyacodes/lavalink:latest
 CMD ["java", "-jar", "Lavalink.jar"]
