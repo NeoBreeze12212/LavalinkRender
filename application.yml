@@ -1,0 +1,6 @@
+server:
+  port: ${PORT}
+
+lavalink:
+  server:
+    password: ${LAVALINK_PASSWORD}
