@@ -4,3 +4,7 @@ server:
 lavalink:
   server:
     password: ${LAVALINK_PASSWORD}
+
+plugins:
+  sources:
+    youtube: true
